@@ -1,3 +1,155 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
+
+body {
+    background-color: rgb(154, 224, 224);
+}
+h1 {
+    color: rgb(215, 38, 141);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    display:block;
+    margin: 2px;
+    padding: 100px;
+    border-style: dotted;
+    border-radius: 50%;
+    border-width: 15px;
+    position: relative;
+}
+
+div {
+    margin: 160px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(215, 38, 141);
+}
+.betty {
+    width: 200px;
+    margin-right: 250px;
+    float: right;
+    position: absolute;
+    top: 30px;
+    right: 80px;
+}
+.kac01 {
+    width: 45px;
+    position: absolute;
+    top: 80px;
+    left: 150px;
+
+}
+.kac02 {
+    width: 45px;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+}
+.kac03 {
+    width: 45px;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+}
+.kac04 {
+    width: 45px;
+    position: absolute;
+    top: 60px;
+    left: 700px;
+}
+.kac05 {
+    width: 45px;
+    position: absolute;
+    top: 60px;
+    left: 400px;
+}
+.kac06 {
+    width: 45px;
+    position: absolute;
+    top: 180px;
+    left: 800px;
+}
+.kac07 {
+    width: 45px;
+    position: absolute;
+    top: 100px;
+    left: 1200px;
+}
+.kac08 {
+    width: 45px;
+    position: absolute;
+    top: 440px;
+    left: 1200px;
+}
+.kac09 {
+    width: 45px;
+    position: absolute;
+    top: 440px;
+    left: 220px;
+}
+.kac10 {
+    width: 45px;
+    position: absolute;
+    top: 854px;
+    left: 1200px;
+}
+.kac11 {
+    width: 45px;
+    position: absolute;
+    top: 854px;
+    left: 220px;
+}
+.kac12 {
+    width: 45px;
+    position: absolute;
+    top: 1128px;
+    left: 1200px;
+}
+.kac13 {
+    width: 45px;
+    position: absolute;
+    top: 1128px;
+    left: 220px;
+}
+.bettyCvici {
+    position:absolute;
+    top: 1000px;
+    left: 650px;
+}
+.kyticky01 {
+    position:absolute;
+    top: 1280px;
+    left: 1000px;
+}
+
+.kyticky03 {
+    position:absolute;
+    top: 1280px;
+    left: 200px;
+}
+.kyticky04 {
+    position:absolute;
+    top: 1280px;
+    left: 400px;
+}
+.kyticky05 {
+    position:absolute;
+    top: 1280px;
+    left: 600px;
+}
+.kyticky06 {
+    position:absolute;
+    top: 1280px;
+    left: 800px;
+}
+.bettySnida {
+    width: 160px;
+    position:absolute;
+    top: 730px;
+    left: 650px;
+}
+
